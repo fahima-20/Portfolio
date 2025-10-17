@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+ 
+</head>
+<body>
+<div class="container1" >
+  <div class="container1-left">
+    <h1 class="portfolio">Portfolio<span class="span">.fahima</span></h1>
+  </div>
+  <div class="container1-right" id="menu">
+   <a href="#home"><div><button class="btn">Home</button></div></a>
+     <a href="#about"><div><button class="btn">About</button></div></a>
+       <a href="#skill"><div><button class="btn">Skills</button></div></a>
+        <a href="#contact"><div><button class="btn">Contact</button></div></a>
+  </div>
+  <div class="container1-icon" id="menu-icon"><img src="icon/vecteezy_menu-flat-color-outline-icon_19858703.png"></div>
+</div>
+<div class="container2" id="home">
+<h1 class="me">Hi I'M FAHIMA P</h1>
+<h2 class="mee">I'm a Fronted Developer</h2>
+<p class="meee">Welcome to my portfolio! I am a passionate web developer with a keen eye for design and a love for creating interactive web experiences.</p>
+<button  class="cv">Download CV</button>
+</div>
+      
+<div class="container3" id="about">
+  <h1 class="about-me">About Me</h1>
+<img class="my-photo" src="icon/WhatsApp Image 2025-10-14 at 2.36.01 AM.jpeg">
+<h1 class="am">Web Developer</h1>
+<p class="amm">I am a Web developer with a passion for creating beautiful and functional web applications. I have experience in HTML, CSS, and JavaScript.</p>
+<p class="ammm">In my free time, I enjoy exploring new frameworks and libraries, as well as contributing to open-source projects.</p>
+</div>
+
+<div class="container4" id="skill">
+<div class="con4-1"><h1>My Skills</h1></div>
+<div class="con4-2">
+<div class="html">
+  <h4>HTML</h4>
+  <p>HTML (HyperText Markup Language): The foundation of web development, used to create and structure the content of web pages with elements like text, images, links, and forms.</p>
+</div>
+
+<div class="css">
+  <h3>CSS</h3>
+  <p >SS (Cascading Style Sheets): The design language of the web, used to style and format HTML content with colors, layouts, fonts, and responsive designs.</p>
+</div>
+
+<div class="java">
+  <h4>JAVA SCRIPT</h4>
+  <p>avaScript: The programming language of the web, used to add interactivity, dynamic behavior, and functionality to HTML and CSS-based web pages.
+  </p>
+</div>
+</div>
+ </div>
+
+ <div class="container5" id="contact">
+  <h1>Contact Me</h1>
+   <div class="con5">
+<label>First Name :</label>
+<input class="first-name" type="name" >
+<label>last Name :</label>
+<input class="last-name" type="name">
+<label>Email :</label>
+<input class="email" type="name" >
+<label>Subject :</label>
+<input class="subject" type="name" >
+<input class="submit" type="submit" placeholder="SUBMIT">
+   </div>
+ </div>
+ <script>
+  const menuIcon = document.getElementById('menu-icon');
+  const menu = document.getElementById('menu');
+
+  menuIcon.addEventListener('click', () => {
+    menu.classList.toggle('show'); // Toggle the 'show' class
+  });
+</script>
+</body>
+</html>
